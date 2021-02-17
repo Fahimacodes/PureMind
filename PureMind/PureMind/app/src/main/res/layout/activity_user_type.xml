@@ -1,0 +1,69 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/constraintLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorBackground"
+android:paddingLeft="20dp"
+android:paddingTop="20dp"
+android:paddingRight="20dp"
+android:paddingBottom="20dp"
+tools:context=".Controller.LoginActivity">
+
+    <TextView
+        android:id="@+id/PureMind"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/logoImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="153dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="84dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/counsellorButton"
+        android:layout_width="333dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="20dp"
+        android:background="#B7F391"
+        android:text="@string/user_counsellor"
+        android:textColor="#D84315"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+
+    <Button
+        android:id="@+id/patientButton"
+        android:layout_width="335dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="20dp"
+        android:background="#9EF1F3"
+        android:text="@string/user_patient"
+        android:textColor="#00695C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counsellorButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

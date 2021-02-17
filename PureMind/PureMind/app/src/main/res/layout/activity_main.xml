@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <RelativeLayout
+            android:id="@+id/my_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+
+            <TextView
+                android:id="@+id/aboutPureMind"
+                android:layout_width="281dp"
+                android:layout_height="144dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:fontFamily="monospace"
+                android:includeFontPadding="true"
+                android:text="@string/about"
+                android:textAlignment="center"
+                android:textStyle="normal" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_search_result_list"
+                android:layout_width="399dp"
+                android:layout_height="392dp"
+                android:layout_below="@id/main_search_box_input"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="25dp">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <ImageButton
+                android:id="@+id/main_search_friends_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/main_simpleTextID"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/main_search_box_input"
+                android:background="@drawable/inputs"
+                android:src="@drawable/search" />
+
+            <TextView
+                android:id="@+id/main_simpleTextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="186dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/search_context"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/main_search_box_input"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/main_simpleTextID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/inputs"
+                android:ems="10"
+                android:hint="@string/search_hint"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColor="@color/colorProfile"
+                android:textColorHint="@color/colorProfile" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/navigation_menu">
+
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>
+

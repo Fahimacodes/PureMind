@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357265016351",
+    "firebase_url": "https://mentalmatch-86d4f.firebaseio.com",
+    "project_id": "mentalmatch-86d4f",
+    "storage_bucket": "mentalmatch-86d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357265016351:android:6f6abdb43587e6be70b72a",
+        "android_client_info": {
+          "package_name": "com.example.MentalMatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357265016351-i2hulh37cgqfa9fkhg7287geqt0f3v57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.MentalMatch",
+            "certificate_hash": "442881566d247c122667c23fec9d73e0b8c5f444"
+          }
+        },
+        {
+          "client_id": "357265016351-n4058rhrch0acgbk5uqnm03pcukjif2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDid_j0pJIsiwIz4qJiCEQx-wJEH7xFhOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357265016351-n4058rhrch0acgbk5uqnm03pcukjif2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

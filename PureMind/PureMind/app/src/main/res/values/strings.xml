@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PureMind</string>
+    <string name="reset_password">Enter your email below to receive a password reset link</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_not_member">No account? Register</string>
+    <string name="text_already_member">Have an account? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="error_password_match">Passwords do not match</string>
+    <string name="about">Pure Mind provides a range of counsellors to support your mental health needs. \n Search, Connect, Chat. \n Help us help you.</string>
+    <string name="search_context">SEARCH BY USERNAME</string>
+    <string name="search_hint">Search..</string>
+    <string name="chat_hint">Write a message..</string>
+    <string name="connections_title">Connections</string>
+    <string name="text_email">Email</string>
+    <string name="text_forgotten_password">Forgotten Password?</string>
+    <string name="user_counsellor">Counsellor</string>
+    <string name="user_patient">Patient</string>
+    <string name="button_reset_password">Reset Password</string>
+    <string name="button_save">Save</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_update">Update</string>
+    <string name="receiver_message">Receiver Message</string>
+    <string name="sender_message">Sender Message</string>
+    <string name="text_username">Username</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_code">Board Accreditation Code</string>
+    <string name="text_location">Location</string>
+    <string name="text_religion">Religion</string>
+    <string name="text_ethnicity">Ethnicity</string>
+    <string name="text_languages">Languages</string>
+    <string name="text_gender">Gender</string>
+
+</resources>
